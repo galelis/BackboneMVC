@@ -1,43 +1,20 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+node_modules/backbone/*
+!node_modules/backbone/backbone.js
 
-# Folder config file
-Desktop.ini
+node_modules/backbone.localstorage/*
+!node_modules/backbone.localstorage/backbone.localStorage.js
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+node_modules/jquery/*
+!node_modules/jquery/dist
+node_modules/jquery/dist/*
+!node_modules/jquery/dist/jquery.js
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+node_modules/todomvc-app-css/*
+!node_modules/todomvc-app-css/index.css
 
-# Windows shortcuts
-*.lnk
+node_modules/todomvc-common/*
+!node_modules/todomvc-common/base.css
+!node_modules/todomvc-common/base.js
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+node_modules/underscore/*
+!node_modules/underscore/underscore.js
